@@ -1,5 +1,9 @@
 /**
+Print all goroutine stacktrace after receiving user-defined signal:
 http://colobu.com/2016/12/21/how-to-dump-goroutine-stack-traces/
+
+Use `top -H -p` and `jstack <pid>` for JVM programs:
+http://www.cnblogs.com/LBSer/p/3703967.html
 
 kill -SIGUSR1 <pid>
 */
